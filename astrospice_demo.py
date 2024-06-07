@@ -1,6 +1,6 @@
 import astropy.units as u
 import matplotlib
-matplotlib.use('MacOSX')
+# matplotlib.use('MacOSX')
 import matplotlib.pyplot as plt
 import numpy as np
 from astropy.time import Time, TimeDelta
