@@ -1,0 +1,26 @@
+name: cfa_reu
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+  - spedas
+dependencies:
+  - python>=3.10
+  - numpy>=1.19.5
+  - requests
+  - cdflib<1.0.0
+  - cdasws>=1.7.24
+  - netCDF4
+  - pywavelets
+  - astropy
+  - ipython
+  - scipy
+  - hapiclient>=0.2.2
+  - viresclient
+  - jupyter
+pip:
+  - pytplot-mpl-temp>=2.2.1
+  - geopack>=1.0.10
+  - pyspedas
+  - spherepy==0.0.9
+  - tqdm
