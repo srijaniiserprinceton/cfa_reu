@@ -1,8 +1,8 @@
 import astropy.units as u
 import matplotlib
-matplotlib.use('qtagg')
+# matplotlib.use('qtagg')
 # switch to this if you are on Mac
-# matplotlib.use('MacOSX')
+matplotlib.use('MacOSX')
 import matplotlib.pyplot as plt
 import numpy as np
 from astropy.time import Time, TimeDelta
