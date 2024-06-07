@@ -14,13 +14,14 @@ dependencies:
   - pywavelets
   - astropy
   - ipython
+  - pip
   - scipy
   - hapiclient>=0.2.2
   - viresclient
   - jupyter
-pip:
-  - pytplot-mpl-temp>=2.2.1
-  - geopack>=1.0.10
-  - pyspedas
-  - spherepy==0.0.9
-  - tqdm
+  - pip:
+    - pytplot-mpl-temp>=2.2.1
+    - geopack>=1.0.10
+    - pyspedas
+    - spherepy==0.0.9
+    - tqdm
