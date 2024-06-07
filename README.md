@@ -12,7 +12,18 @@ Install the `conda` environment using
 ```
 conda env create -f cfa_reu.yml
 ```
-If you are using `mamba` (normally resolves environment much faster than `conda`), you can run the above by simply changing `conda` to `mamba`.
+This will take 5-10 mins. If you are using `mamba` (normally resolves environment much faster than `conda`), you can run the above by simply changing `conda` to `mamba`.
+
+You will know this has worked if it exits showing the following
+```
+# To activate this environment, use
+#
+#     $ conda activate cfa_reu
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+```
 At this point you should have an environent called `cfa_reu` in your list of `conda` environments. Check this using 
 ```
 conda info --envs
@@ -29,7 +40,18 @@ instead of
 ```
 bash-3.2$
 ```
-Run the code `astrospice_demo.py` in a `juypter notebook` to see if the environment works. To start a `jupyter` 
+* **If you are on MACOS**
+You can run the code in `ipython` by first starting an `ipython` kernel
 ```
-jupyter-notebook
+(cfa_reu) bash-3.2$ ipython
 ```
+and then running 
+```
+run astrospice_demo.py
+```
+* **If you are not on MACOS**
+Run the code `astrospice_demo.py` in a `juypter notebook` to see if the environment works. To start a `jupyter` kernel, from your teminal run 
+```
+jupyter notebook
+```
+Open the notebook `astrospice_demo.ipynb` and execute the cell.
