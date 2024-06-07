@@ -1,7 +1,5 @@
 import astropy.units as u
 import matplotlib
-# matplotlib.use('qtagg')
-# switch to this if you are on Mac
 matplotlib.use('MacOSX')
 import matplotlib.pyplot as plt
 import numpy as np
