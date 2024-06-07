@@ -1,4 +1,6 @@
 import astropy.units as u
+import matplotlib
+matplotlib.use('MacOSX')
 import matplotlib.pyplot as plt
 import numpy as np
 from astropy.time import Time, TimeDelta
@@ -24,10 +26,8 @@ coords2 = coords.transform_to(new_frame2)
 fig = plt.figure()
 ax = fig.add_subplot(projection='polar')
 ax.scatter(coords1.lon.to(u.rad), coords1.distance.to(u.au), c=times.jd, s=2)
-plt.show()
 
 fig = plt.figure()
 ax = fig.add_subplot(projection='polar')
 # ax.scatter(coords2.lon.to(u.rad), coords2.radius.to(u.au), c=times.jd, s=2)
 ax.plot(coords2.lon.to(u.rad), coords2.radius.to(u.au), 'k')
-plt.show()
