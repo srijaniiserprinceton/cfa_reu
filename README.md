@@ -29,7 +29,18 @@ instead of
 ```
 bash-3.2$
 ```
-Run the code `astrospice_demo.py` in a `juypter notebook` to see if the environment works. To start a `jupyter` 
+* **If you are on MACOS**
+You can run the code in `ipython` by first starting an `ipython` kernel
 ```
-jupyter-notebook
+(cfa_reu) bash-3.2$ ipython
 ```
+and then running 
+```
+run astrospice_demo.py
+```
+* **If you are not on MACOS**
+Run the code `astrospice_demo.py` in a `juypter notebook` to see if the environment works. To start a `jupyter` kernel, from your teminal run 
+```
+jupyter notebook
+```
+Open the notebook `astrospice_demo.ipynb` and execute the cell.
