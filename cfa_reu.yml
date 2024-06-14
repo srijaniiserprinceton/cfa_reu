@@ -18,6 +18,7 @@ dependencies:
   - scipy==1.11.4
   - hapiclient==0.2.5
   - viresclient==0.11.3
+  - scikit-image==0.23.2
   - bokeh
   - jupyter
   - pip:
